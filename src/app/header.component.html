@@ -1,0 +1,35 @@
+<div class="banner blue500">
+  <h1 class="header-left">
+    <a routerLink="" class="headerImg">
+      <span style="font-weight: normal;">METE DESIGN</span>
+    </a>
+  </h1>
+  <ul class="header-right">
+    <li class="header-li"  >
+      <a routerLink="" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
+        <span>首页</span>
+      </a>
+    </li>
+    <li class="header-li"  >
+      <a routerLink="/css" [routerLinkActive]="['active']" >
+        <span>CSS</span>
+      </a>
+    </li>
+    <li class="header-li">
+      <a routerLink="component" [routerLinkActive]="['active']">
+        <span>组件</span>
+      </a>
+    </li>
+    <li class="header-li">
+      <a routerLink="resource" [routerLinkActive]="['active']">
+        <span>资源</span>
+      </a>
+    </li>
+    <li class="header-li">
+      <a routerLink="resource">
+        <span>NativeScript</span>
+      </a>
+    </li>
+
+  </ul>
+</div>

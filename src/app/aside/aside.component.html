@@ -1,0 +1,8 @@
+<div class="container">
+    <ul>
+        <li *ngFor="let item of items">
+            <a routerLink="{{item.route}}" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}" >{{item.title}}</a>
+        </li>
+    </ul>
+   
+</div>

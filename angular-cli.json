@@ -16,8 +16,12 @@
       "mobile": false,
       "styles": [
         "styles.css"
+        
       ],
-      "scripts": [],
+      "scripts": [
+        "../src/assets/lib/jquery-3.1.1.min.js",
+        "../src/assets/bootstrap/js/bootstrap.min.js"   
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",

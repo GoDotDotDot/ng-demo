@@ -1,0 +1,23 @@
+ .main-container{
+        position:relative;width: 93%;margin: 0px auto;min-height: 500px;padding: 20px 20px;
+        border-radius: 6px;
+        background: #fff;
+    }
+     .foot{
+        background-color: #263238;color:#fff;padding: 20px 20px
+    }
+    .foot h1,h2,h3{
+       padding: 20px 0px;
+    }
+     .foot span{
+       padding: 20px 0px;font-size: 16px
+    }
+@media screen and (min-width: 1024px) {
+   
+   
+}
+
+@media screen and (max-width: 1024px) {
+    
+}
+
