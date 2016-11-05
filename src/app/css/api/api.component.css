@@ -149,3 +149,16 @@
 			border-radius: 1px;
 			box-shadow: 0px 0px 5px 0px #2196F3;
 		}
+#color-panel ul{
+	float: left; padding: 16px 0px; display: block; margin: 0px; width: 25%;
+}
+#color-panel li{
+		margin: 0
+	}
+		
+@media screen and (max-width:1068px){
+	#color-panel ul{
+		width: 50%;
+	}
+	
+}

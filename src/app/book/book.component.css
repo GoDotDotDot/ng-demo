@@ -193,9 +193,11 @@ p {
 			margin-bottom: 1em;
 		}
 		
-		@media screen and (min-width: 768px) {
-			body {
-				width: 748px;
-				margin: 10px auto;
+		@media screen and (max-width: 768px) {
+			.aside{
+				float: none;width: 100%;
 			}
-		}
+			.content{
+  				 position: inherit;padding:0;
+			}
+}
