@@ -66,6 +66,9 @@
     width: 100%;
     background-color: #2196F3;
   }
+  .header-ul{
+    display: block;
+  }
   .header-li{
     display: block;
     float: none;
