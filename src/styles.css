@@ -7,11 +7,3 @@ li{
 }
 a{text-decoration: none}
 
-.loading{
-    width: 200px;height: 200px;vertical-align: middle;
-    text-align: center;position: absolute;
-    top: 50%;left:50%;margin-top: -100px;margin-left: -100px
-}
-.loading span{
-    display: block;padding-top: 20px;color: #666
-}

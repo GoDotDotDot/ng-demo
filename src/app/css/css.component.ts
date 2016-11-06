@@ -1,6 +1,4 @@
-import { Component, OnInit,HostBinding,
-         trigger, transition, animate,
-         style, state } from '@angular/core';
+import { Component, OnInit,HostBinding, trigger, transition, animate,style, state } from '@angular/core';
 import {AsideComponent} from '../aside/aside.component'
 @Component({
   selector: 'app-css',
