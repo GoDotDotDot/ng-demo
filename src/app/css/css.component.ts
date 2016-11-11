@@ -1,10 +1,10 @@
-import { Component, OnInit,HostBinding, trigger, transition, animate,style, state } from '@angular/core';
-import {AsideComponent} from '../aside/aside.component'
+import { Component, OnInit, HostBinding, trigger, transition, animate, style, state } from '@angular/core';
+import { AsideComponent } from '../aside/aside.component'
 @Component({
   selector: 'app-css',
   templateUrl: './css.component.html',
   styleUrls: ['./css.component.css'],
-   animations: [
+  animations: [
     trigger('routeAnimation', [
       state('*',
         style({
@@ -40,32 +40,36 @@ export class CssComponent implements OnInit {
   @HostBinding('style.position') get position() {
     return 'relative';
   }
-  items:any
+  items: any
   constructor() {
-    this.items=[
-            {
-                title:"开始",
-                route:"../css"
-            },
-            {
-                title:"命名规范",
-                route:"conventions"
-            },
-             {
-                title:"API参考",
-                route:"api"
-            },
-            {
-                title:"SASS自动化构建",
-                route:"sass"
-            }
-               
-        ]
-   }
+    this.items = [
+      {
+        title: "开始",
+        route: "../css"
+      },
+      {
+        title: "CSS命名规范",
+        route: "conventions"
+      },
+
+      {
+        title: "项目文件目录命名",
+        route: "filename"
+      },
+      {
+        title: "SASS自动化构建",
+        route: "sass"
+      }, {
+        title: "API参考",
+        route: "api"
+      },
+
+    ]
+  }
 
   ngOnInit() {
   }
-  tanchu():void{
+  tanchu(): void {
     console.log("测试")
   }
 }

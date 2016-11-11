@@ -16,7 +16,7 @@ const appRoutes=[
 		component:IndexComponent
 	}
 ];
-export default RouterModule.forRoot(appRoutes);
+export default RouterModule.forRoot(appRoutes,{ useHash: true });
 
 
 
